@@ -1,0 +1,20 @@
+<?php
+define('USER_STATUS_ACTIVE', 1);
+define('USER_STATUS_INACTIVE', 0);
+define('USER_STATUS_BANNED', 2);
+
+define('INVITATION_STATUS_PENDING', 0);
+define('INVITATION_STATUS_ACCEPTED', 1);
+define('INVITATION_STATUS_REJECTED', 2);
+
+define('VISIBILITY_PUBLIC', 'public');
+define('VISIBILITY_PRIVATE', 'private');
+
+define('REPORT_STATUS_PENDING', 0);
+define('REPORT_STATUS_RESOLVED', 1);
+define('REPORT_STATUS_DISMISSED', 2);
+
+define('NOTIFICATION_TYPE_INVITATION', 'invitation');
+define('NOTIFICATION_TYPE_MESSAGE', 'message');
+define('NOTIFICATION_TYPE_ACCEPTED', 'accepted');
+define('NOTIFICATION_TYPE_REJECTED', 'rejected');
